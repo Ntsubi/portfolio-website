@@ -27,7 +27,7 @@
   <main class="contact">
     <h1>Contact</h1>
     <p>For any inquiries, don't hesitate to get in touch with me via the contact form below:</p>
-    <form action="/contact-form-action" method="post" id="contact-form">
+    <form action="/" method="get" id="contact-form" onsubmit="alert('Thanks for reaching out!')">
       <label for="name">Full name:</label>
       <input id="name" name="name" required>
       <br><br>
@@ -35,7 +35,7 @@
       <input type="email" id="contact-email" name="contact-email" required>
       <br><br>
       <label for="telephone" class="standard-label">Telephone:</label>
-      <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="telephone" name="telephone">
+      <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="telephone" name="telephone" placeholder="222-333-5555">
       <br><br>
       <label for="message" class="standard-label">Message:</label>
       <textarea id="message" name="message" maxlength="240" required></textarea>
@@ -55,9 +55,9 @@
   <footer class="page-footer">
     <p>Find me on</p>
     <div class="social-media">
-      <img src="img/github.svg" alt="GitHub">
-      <img src="img/twitter.svg" alt="Twitter">
-      <img src="img/linkedin.svg" alt="LinkedIn">
+      <a href="https://github.com"><img src="img/github.svg" alt="GitHub"></a>
+      <a href="https://twitter.com"><img src="img/twitter.svg" alt="Twitter"></a> 
+      <a href="https://linkedin.com"><img src="img/linkedin.svg" alt="LinkedIn"></a>
     </div>
    </footer>
   <script src="js/tota11y.min.js"></script>
