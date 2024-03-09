@@ -2,73 +2,105 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Work</title>
-    <link rel="icon" type="image/png" href="img/favicon-16x16.png">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Work</title>
+  <link rel="icon" type="image/png" href="img/favicon-16x16.png">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
 </head>
+
 <body>
-    <header class="page-header">
-        <img src="img/ntsubise-moshoeshoe-logo.svg" class="page-header__item" alt="Personal logo of Ntsubi Moshoeshoe">
-            <!--Edit the alt text later to make it even more descriptive-->
-            <nav class="menu-navigation page-header__item">
-            <ul role="menubar" class="navigation-list">
-                <li role="presentation"><a role="menuitem" href="./index.html" class="navigation-list__item navigation-list__item">Home</a></li>
-                <li role="presentation"><a role="menuitem" href="./about.html" class="navigation-list__item">About</a></li>
-                <li role="presentation"><a role="menuitem" href="./work.html" class="navigation-list__item--active">Work</a></li>
-                <li role="presentation"><a role="menuitem" href="./contact.html" class="navigation-list__item">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Main content -->
-<section>
+  <header class="page-header">
+    <img src="img/ntsubise-moshoeshoe-logo.svg" class="page-header__item" alt="Personal logo of Ntsubi Moshoeshoe">
+    <nav class="menu-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation"><a role="menuitem" href="./index.html"
+            class="navigation-list__item navigation-list__item">Home</a></li>
+        <li role="presentation"><a role="menuitem" href="./about.html" class="navigation-list__item">About</a></li>
+        <li role="presentation"><a role="menuitem" href="./work.html" class="navigation-list__item--active">Work</a>
+        </li>
+        <li role="presentation"><a role="menuitem" href="./contact.html" class="navigation-list__item">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Main content -->
+  <section>
     <h1 class="work">Work</h1>
     <div class="grid">
-       <!-- Grid items will live here -->
-     <div class="grid__item">
-        <h2>Project 1</h2>
+      <!-- Grid items will live here -->
+      <div class="grid__item">
+        <h2>Pokedex</h2>
+        <img class="screenshots" src="img/pokedex.png" />
         <p>
-         Please check back for updates.
+          A small web application built using HTML, CSS and JavaScript that loads data from an external API and enables
+          the viewing of data points in detail.
         </p>
-        <a href="https://github.com">See project on GitHub</a>
-     </div>
-     <div class="grid__item">
-        <h2>Project 2</h2>
+        <a href="https://github.com/Ntsubi/pokemon-js-application">See project on GitHub</a>
+        <a href="https://ntsubi.github.io/pokemon-js-application/">See deployed version</a>
+      </div>
+      <div class="grid__item">
+        <h2>Movie API</h2>
+        <img class="screenshots" src="img/movie_api.png" />
         <p>
-         Please check back for updates.
+          The objective of this project is to build a server-side component of a movies web application.
         </p>
-        <a href="https://github.com">See project on GitHub</a>
-     </div>
-     <div class="grid__item">
-        <h2>Project 3</h2>
+        <a href="https://github.com/Ntsubi/movie_api">See project on GitHub</a>
+      </div>
+      <div class="grid__item">
+        <h2>myFlix (React)</h2>
+        <img class="screenshots" src="img/myFlix_React.png" />
         <p>
-         Please check back for updates.
+          This is a single page application built in React making use of a REST API and database built specifically for
+          this project. It is the client-side of a movies database where you can access movies across different genres.
         </p>
-        <a href="https://github.com">See project on GitHub</a>
-     </div>
-     <div class="grid__item">
-        <h2>Project 4</h2>
+        <a href="https://github.com/Ntsubi/myFlix-client">See project on GitHub</a>
+        <a href="https://movie-app-myflix.netlify.app/">See deployed version</a>
+      </div>
+      <div class="grid__item">
+        <h2>Meet</h2>
+        <img class="screenshots" src="img/meet.png" />
         <p>
-         Please check back for updates.
+          This is a progressive web application built in React that consumes the Google API to return upcoming events to
+          its users.
         </p>
-        <a href="https://github.com">See project on GitHub</a>
-     </div>
+        <a href="https://github.com/Ntsubi/meet">See project on GitHub</a>
+        <a href="https://ntsubi.github.io/meet/">See deployed version</a>
+      </div>
+      <div class="grid__item">
+        <h2>myFlix (Angular)</h2>
+        <img class="screenshots" src="img/myFlix_Angular.png" />
+        <p>
+          This is a client-side web application built in Angular that consumes the movies REST API and database built in
+          a different project (Movies API).
+        </p>
+        <a href="https://github.com/Ntsubi/myFlix-Angular">See project on GitHub</a>
+        <a href="https://ntsubi.github.io/myFlix-Angular/">See deployed version</a>
+      </div>
+      <div class="grid__item">
+        <h2>Chat</h2>
+        <img style="width: 250px; height: 500px" src="img/chat.png" />
+        <p>
+          This is a simple mobile app built in React Native that provides users with a chat interface to exchange text
+          and media in real time.
+        </p>
+        <a href="https://github.com/Ntsubi/chat">See project on GitHub</a>
+      </div>
     </div>
- </section>
- <!-- Footer with links to social media profiles -->
- <footer class="page-footer">
-  <p>Find me on</p>
-  <div class="social-media">
-    <a href="https://github.com"><img src="img/github.svg" alt="GitHub"></a>
-    <a href="https://twitter.com/"><img src="img/twitter.svg" alt="Twitter"></a>
-    <a href="https://linkedin.com"><img src="img/linkedin.svg" alt="LinkedIn"></a>
-  </div>
- </footer>
-    <script src="js/tota11y.min.js"></script>
+  </section>
+
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <a href="https://github.com/Ntsubi"><img src="img/github.svg" alt="GitHub"></a>
+      <a href="https://www.linkedin.com/in/ntsubisemoshoeshoe/"><img src="img/linkedin.svg" alt="LinkedIn"></a>
+    </div>
+  </footer>
+  <script src="js/tota11y.min.js"></script>
 </body>
+
 </html>
