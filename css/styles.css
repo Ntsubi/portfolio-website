@@ -198,6 +198,48 @@ button:focus,
   animation: 4s color-change infinite alternate linear;
 }
 
+.skills-wrapper {
+  margin-left: 500px;
+}
+
+.skills-container {
+  width: 45%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 55%;
+  background-color: #04AA6D;
+}
+
+.css {
+  width: 55%;
+  background-color: #2196F3;
+}
+
+.js {
+  width: 60%;
+  background-color: #f44336;
+}
+
+.node {
+  width: 55%;
+  background-color: #fe2d81;
+}
+
+.react {
+  width: 55%;
+  background-color: #53a8f2;
+}
+
+
 @keyframes color-change {
   0% {
     fill: #edc655;
